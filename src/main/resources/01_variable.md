@@ -1,0 +1,153 @@
+# Variablen und Datentypen
+* werden genutzt um Werte/Daten zu speichern
+* Unterscheidung in primitiven Typen und Referenztypen
+* primitiven Typen haben einen festen Wertebereich und sind fester Bestandteil Java (eigene Schlüsselwörter)
+* Referenztypen können beliebig selbst definiert 
+
+## Variablen deklarieren und initialisieren
+### Deklarieren:
+```java
+int age; ​
+double income; ​
+char gender; ​
+boolean isVegetarian
+```
+
+### Initialisieren:
+```java
+int age;
+age = 25;
+int countChildren = 2;
+```
+
+### Aufgabe 1
+1. Deklariere und initialisiere zwei Integer und addiere sie. Verwende System.out.print() zum ausgeben des Ergebnisses.
+2. Gebe zusätzlich vor dem berechneten Wert den Text _'Result: '_ aus.
+
+## Weitere Datenypen
+* Sind fester Bestandteil der Sprache (eigene Schlüsselwörter)
+* haben einen festgelegten Werte Bereich
+
+| Primitiver Typ | Wertebereich                                              | Größe       | Verwendung              | 
+| -------------- | --------------------------------------------------------- | ----------- |------------------------ |
+| boolean        | true oder false                                           | undefiniert | Wahrheitswerte          |
+| char           | 0 bis 65.535                                              | 16 bit      | Alphanumerische Zeichen |
+| byte           | -128 bis 127                                              | 8 bit       | ganze Zahlen            |
+| short          | -32.768 bis 32.767                                        | 16 bit      | ganze Zahlen            |
+| int            | -2.147.483.648 bis 2.147.483.647                          | 32 bit      | ganze Zahlen            |
+| long           | –9.223.372.036.854.775.808 bis 9.223.372.036.854.775.807  | 64 bit      | ganze Zahlen            |
+| float          | -3.4*10<sup>38</sup> bis +3,4*10<sup>38</sup>             | 32 bit      | Fließkommazahlen        |
+| double         | -1.7*10<sup>308</sup> bis +1.7*10<sup>308</sup>           | 64 bit      | Fließkommazahlen        |   
+
+### Boolean
+* beschreibt einen Wahrheitswert
+* true oder false (reservierte Schlüsselwörter)
+* wird für Bedingungen, Verzweigungen oder Schleifen genutzt
+
+```java
+boolean isAdult = false;
+int age = 35;
+
+isAdult = age>=18; 
+```
+
+#### Aufgabe 2
+1. Was ist das Ergebnis von dem Codesnippet?
+2. Was ist das Ergebnis wenn du den Wert 13 und 18 für 'age' setzt?
+3. Gibt das Ergebnis mit System.out.println() aus.
+
+### Character
+* kann alphanumerische Unicode-Zeichen speichern
+* Wertzuweisung mit einfachen Hochkommata
+* integer Werte können auch zugewiesen werden
+
+```java
+char firstCharacter = 'A';
+System.out.println(firstCharacter);
+
+firstCharacter = 65;
+System.out.println(firstCharacter);
+```
+
+#### Aufgabe 2
+1. Was ist das Ergebnis von dem Codesnippet?
+2. Gibt das Ergebnis mit System.out.println() aus.
+
+### Double
+* wird zum Speichern von Fließkommazahlen verwendet
+* Punkt-Zeichen wird zur Trennung von Nachkommastellen verwendet
+* falls ganze Zahlen zugewiesen werden, sollte ein 'D' bzw. 'd' als suffix oder ein Punkt verwendet werden
+    *führt bei Berechnungen ansonsten zu fehlerhaften Ergebnis   
+
+```java
+double height = 1.78;
+...
+double age = 8D;
+age = 8d;
+age = 8.0;
+age = 8.;
+```
+
+#### Aufgabe 4
+Was ist das Ergebnis von folgendem Code?
+```java
+int intResult = 3/2;
+double doubleResult = 3/2;
+
+System.out.println("Integer result: " + intResult);
+System.out.println("Double result: " + doubleResult);
+```
+
+## Referenztypen/Objekte
+* haben keinen festen Wertebereich
+* es wird die Referenz in einer Varibelen gespeichert
+* Name des Typs fängt mit einem großen Buchtstaben an
+
+```java
+Point point = new Point(3,3);
+System.out.println(point.toString());
+
+Point changedPoint = point;
+changedPoint.x = 1;
+changedPoint.y = 1;
+
+System.out.println(point.toString());
+``` 
+
+### Aufgabe 5
+Was ist das Ergebnis von dem Codesnippet?
+ 
+### String
+* wird zum Speichern von Zeichenketten verwendet
+* Wertzuweisung mit doppelten Hochkommata
+* kann wie ein primitiver Datentyp verwendet werden
+* zwei Zeichenketten können mit dem '+'-Zeichen konkateniert/zusammengeführt werden
+* bietet viele eigene Funktionen zum bearbeiten einer Zeichenkette
+
+```java
+String welcome = "Willkommen bei DB Vertrieb";
+
+String welcome = "Willkommen" + "bei DB Vertrieb";
+``` 
+
+### Aufgabe 6
+Programme das Beispiel aus Aufgabe 5 mit dem Datentyp String nach.
+
+### Aufgabe 7
+Spiele mit den bereitgestellten Funktionen von String. Erstelle dafür eine String-Zeichenkette. 
+Auf die Funktionen einer Variablen kannst du zugreifen in dem du ihr einen '.' hinzufügst:
+```java
+String welcome = "Willkommen bei DB Vertrieb";
+welcome.xxx();
+``` 
+
+### Arrays
+
+## Casting
+## Naming
+
+## Quellen
+* https://panjutorials.de/tutorials/java-tutorial-programmieren-lernen-fuer-anfaenger/lektionen/datentyp-integer/
+* https://de.wikibooks.org/wiki/Java_Standard:_Primitive_Datentypen#cite_note-2
+* http://openbook.rheinwerk-verlag.de/javainsel/02_003.html#u2.3
+* http://www.scalingbits.com/book/export/html/46

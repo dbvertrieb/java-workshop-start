@@ -1,6 +1,6 @@
-package de.db.vertrieb.javaworkshop;
+package de.db.vertrieb.javaworkshop.variables;
 
-public class VariablenTask2Main {
+public class VariablesTask02Main {
     public static void main(String[] args) {
         boolean isAdult = false;
         int age = 35;

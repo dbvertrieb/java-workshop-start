@@ -1,6 +1,6 @@
-package de.db.vertrieb.javaworkshop;
+package de.db.vertrieb.javaworkshop.variables;
 
-public class VariablenTask6Main {
+public class VariablesTask06Main {
     public static void main(String[] args) {
         String welcome = "Willkommen bei DB Vertrieb.";
         System.out.println(welcome);

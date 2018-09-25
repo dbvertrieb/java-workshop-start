@@ -1,8 +1,8 @@
-package de.db.vertrieb.javaworkshop;
+package de.db.vertrieb.javaworkshop.variables;
 
 import java.awt.*;
 
-public class VariablenTask5Main {
+public class VariablesTask05Main {
     public static void main(String[] args) {
         Point point = new Point(3,3);
         System.out.println(point.toString());

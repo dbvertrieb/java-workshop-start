@@ -1,6 +1,6 @@
-package de.db.vertrieb.javaworkshop;
+package de.db.vertrieb.javaworkshop.variables;
 
-public class VariablenTask3Main {
+public class VariablesTask03Main {
     public static void main(String[] args) {
         char firstCharacter = 'A';
         System.out.println(firstCharacter);

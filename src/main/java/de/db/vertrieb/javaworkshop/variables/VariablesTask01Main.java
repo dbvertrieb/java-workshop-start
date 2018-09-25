@@ -1,6 +1,6 @@
-package de.db.vertrieb.javaworkshop;
+package de.db.vertrieb.javaworkshop.variables;
 
-public class VariablenTask1Main {
+public class VariablesTask01Main {
     public static void main(String[] args) {
         int firstNumber = 15;
         int secondNumber = 10;

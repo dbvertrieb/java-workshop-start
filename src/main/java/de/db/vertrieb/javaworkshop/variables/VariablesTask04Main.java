@@ -1,6 +1,6 @@
-package de.db.vertrieb.javaworkshop;
+package de.db.vertrieb.javaworkshop.variables;
 
-public class VariablenTask4Main {
+public class VariablesTask04Main {
     public static void main(String[] args) {
         int intResult = 3/2;
         double doubleResult = 3D/2D;

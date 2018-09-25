@@ -131,7 +131,7 @@ String welcome = "Willkommen" + "bei DB Vertrieb";
 ``` 
 
 ### Aufgabe 6
-Programme das Beispiel aus Aufgabe 5 mit dem Datentyp String nach.
+Programmiere das Beispiel aus Aufgabe 5 mit dem Datentyp String nach.
 
 ### Aufgabe 7
 Spiele mit den bereitgestellten Funktionen von String. Erstelle dafür eine String-Zeichenkette. 
@@ -141,13 +141,82 @@ String welcome = "Willkommen bei DB Vertrieb";
 welcome.xxx();
 ``` 
 
-### Arrays
+### Array
+* Speichern mehrere Werte eines Types in einer Liste
 
-## Casting
-## Naming
+#### Deklarieren
+```java
+int[]   primes; 
+Point[] points;
+``` 
+
+#### Initialisieren
+```java
+primes = new int[5];
+primes = {2, 3, 5, 7, 11};
+
+String[] strings = {"Haus", "Maus"};
+``` 
+
+#### Wert lesen und setzen
+**Lesen:**
+```java
+int[] primes = new int[5];
+int[] primes2 = {2, 3, 5, 7, 11};
+
+int value = primes[1]; 
+``` 
+
+**Setzen:**
+```java
+...
+primes[1] = 13;
+...
+```
+
+#### Aufgabe 8
+* Programmiere das Lese-Beispiel nach und gebe den Wert mit System.out.println aus.
+* Gebe den Wert für die Positionen [-1], [0] und [10] aus
+
+#### Sonstiges
+* Auf die Länge zugreifen:
+```java
+...
+System.out.println( primes.length);
+...
+```
+
+* Mehrdimensionale Arrays
+```java
+...
+int[][] matrix = new int[4][4];
+...
+```
+
+## Variablennamen
+* Lesbare Namen verwenden
+* Semantisch korrekte Namen verwenden
+* Camel-Case-Konvention
+* erster Buchstabe wird kleingeschrieben
+* Namen sollten in Englisch deklariert werden
+
+**Don’ts:**
+```java
+int p;
+String animal_String, Animal;
+String gamename, GAMENAME;
+```
+
+**Dos:**
+```java
+int prime;
+String animal;
+String gameName;
+```
 
 ## Quellen
 * https://panjutorials.de/tutorials/java-tutorial-programmieren-lernen-fuer-anfaenger/lektionen/datentyp-integer/
 * https://de.wikibooks.org/wiki/Java_Standard:_Primitive_Datentypen#cite_note-2
 * http://openbook.rheinwerk-verlag.de/javainsel/02_003.html#u2.3
 * http://www.scalingbits.com/book/export/html/46
+* http://openbook.rheinwerk-verlag.de/javainsel/03_008.html#u3.8

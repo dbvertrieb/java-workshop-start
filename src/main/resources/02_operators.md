@@ -1,7 +1,7 @@
 # Operatoren
 
-## Zuweisungoperator
-* wird genutzt zum setzen von Werten
+## Zuweisungsoperator
+* wird genutzt zum Setzen von Werten
 
 ```java
 int a = 1;
@@ -41,7 +41,7 @@ System.out.println( a );
 ```
 
 **Aufgabe 1:**
-Programmiere folgenden Anweisungen nacheinander nach und führe den Code aus:
+Programmiere folgende Anweisungen nacheinander nach und führe den Code aus:
 ```java
 System.out.println( 0 / 2 );
 System.out.println( 2 / 0 );
@@ -59,8 +59,7 @@ a /= 2;     // a = a / 2;
 ```
 
 **Aufgabe 2:**
-Programmiere den Code nach, initialisiere vorab die Variable 'a' mit einem Wert:
-und gebe jedes Ergebnis aus.
+Programmiere den Code nach, initialisiere vorab die Variable 'a' mit einem Wert und gebe jedes Ergebnis aus.
 
 ## Präfix- oder Postfix-Inkrement und -Dekrement
 ```java
@@ -75,7 +74,7 @@ __Der Präfix-Operator verändert die Variable vor der Auswertung des Ausdrucks,
 der Auswertung des Ausdrucks.__
 
 **Aufgabe 3:**
-Programmiere den Code nach um den Effekt zu sehen.Gebe jedes Ergebnis aus.
+Programmiere den Code nach um den Effekt zu sehen. Gebe jedes Ergebnis aus.
 
 
 ## Vergleichsoperatoren
@@ -90,7 +89,7 @@ Programmiere den Code nach um den Effekt zu sehen.Gebe jedes Ergebnis aus.
     * !=
 
 **Aufgabe 4:**
-Programmiere den Code nach und gebe jedes Ergebnis aus.
+Programmiere den folgenden Code nach und gebe jedes Ergebnis aus:
 
 ```java
 System.out.println(6 > 9);
@@ -110,10 +109,8 @@ System.out.println(6 != 6);
 System.out.println(6 != 8);
 ```
 
-Zusatzaufgabe:
-
 ## Logische Operatoren
-* werden für Bedingungen verwendet (nächstes Kapitel)
+* werden für Bedingungen und Schleifen verwendet (nächste Kapitel)
 * verknüpfen Wahrheitswerte miteinander
 * Ergebnis ist wieder ein Wahrheitswert
 

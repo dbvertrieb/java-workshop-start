@@ -1,6 +1,7 @@
 # Fallunterscheidungen
 * Ausführung von Code nur wenn ein bestimmter Zustand vorhanden ist
-* Beispiel: Anzeige eines Hinweistextes bei Minderjährigen
+    * Beispiel: Anzeige eines Hinweistextes bei Minderjährigen
+* Besteht aus Bedingungskopf und -rumpf
 
 ## If-Bedingung
 ```java
@@ -13,7 +14,7 @@ if (age < 18) {
 * Programmiere den Code nach und initialisiere die Variable 'age'
 * Erweitere den Code, sodass bei einem Alter >= 18 der Text 'Du bist volljähring. Viel spaß!'
 ausgegeben wird
-* Statt dem initialiseren der Variable 'age' kann auch der Wert auch in der Console eingegeben werden:
+* Statt dem Initialisieren der Variable 'age' kann auch der Wert auch in der Console eingegeben werden:
 ```java
 System.out.println("Enter your age: ");
 int age = new Scanner(System.in).nextInt();
@@ -47,7 +48,7 @@ if (age < 18) {
 ```
 
 **Aufgabe 3:**
-Programmiere mit Hilfe von Else-If-Bedingungen einen Nummer-In-Monat-Parser. Z.B. bei Eingabe
+Programmiere mit Hilfe von Else-If-Bedingungen einen Nummer-In-Monat-Parser. Bei Eingabe
 einer '1' soll 'Januar' ausgegeben werden. Bei '2' 'Februar' und so weiter.
 
 ## Geschweifte Klammern
@@ -77,7 +78,7 @@ http://openbook.rheinwerk-verlag.de/javainsel/02_005.html#u2.5.3
 
 ## Switch-Case
 * Kann als Alternative zu Mehrfachverzweigungen mit Else-If-Bedingungen verwendet werden
-* Als Bedingung werden nur feste Werte benutzt (keine Vergleichs-oder logische Anweisungen)
+* Als Bedingung werden nur feste Werte benutzt (keine Vergleichs- oder logische Anweisungen)
 
 ```java
 int age = 20
@@ -109,8 +110,8 @@ Folgendes ist nicht möglich:
 * Das 'break' ist notwendig, da die Ausführung ansonsten in den nächsten 'case'-Block springt.
 
 **Aufgabe 4:**
-* Baut den Code aus Aufgabe 3 mit Switch-Case um.
-* Entfernt die 'Break's und führt den Code nochmal aus
+* Baue den Code aus Aufgabe 3 mit Switch-Case um.
+* Entferne die 'Break's und führe den Code nochmal aus
 
 ## Einrücken
 * **ist entscheidend für die Lesbarkeit des Codes**

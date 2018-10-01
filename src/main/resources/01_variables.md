@@ -1,7 +1,7 @@
 # Variablen und Datentypen
 * werden genutzt um Werte/Daten zu speichern
 * Unterscheidung in primitiven Typen und Referenztypen
-* primitiven Typen haben einen festen Wertebereich und sind fester Bestandteil Java (eigene Schlüsselwörter)
+* primitive Typen haben einen festen Wertebereich und sind fester Bestandteil von Java (eigene Schlüsselwörter)
 * Referenztypen können beliebig selbst definiert 
 
 ## Variablen deklarieren und initialisieren
@@ -17,16 +17,17 @@ boolean isVegetarian
 ```java
 int age;
 age = 25;
+
 int countChildren = 2;
 ```
 
-### Aufgabe 1
-1. Deklariere und initialisiere zwei Integer und addiere sie. Verwende System.out.print() zum ausgeben des Ergebnisses.
+**Aufgabe 1:**
+1. Deklariere und initialisiere zwei Integer und addiere sie. Verwende System.out.print() zum Ausgeben des Ergebnisses.
 2. Gebe zusätzlich vor dem berechneten Wert den Text _'Result: '_ aus.
 
 ## Weitere Datenypen
 * Sind fester Bestandteil der Sprache (eigene Schlüsselwörter)
-* haben einen festgelegten Werte Bereich
+* haben einen festgelegten Wertebereich
 
 | Primitiver Typ | Wertebereich                                              | Größe       | Verwendung              | 
 | -------------- | --------------------------------------------------------- | ----------- |------------------------ |
@@ -51,7 +52,7 @@ int age = 35;
 isAdult = age>=18; 
 ```
 
-#### Aufgabe 2
+**Aufgabe 2:**
 1. Was ist das Ergebnis von dem Codesnippet?
 2. Was ist das Ergebnis wenn du den Wert 13 und 18 für 'age' setzt?
 3. Gibt das Ergebnis mit System.out.println() aus.
@@ -69,7 +70,7 @@ firstCharacter = 65;
 System.out.println(firstCharacter);
 ```
 
-#### Aufgabe 2
+**Aufgabe 3:**
 1. Was ist das Ergebnis von dem Codesnippet?
 2. Gibt das Ergebnis mit System.out.println() aus.
 
@@ -77,7 +78,7 @@ System.out.println(firstCharacter);
 * wird zum Speichern von Fließkommazahlen verwendet
 * Punkt-Zeichen wird zur Trennung von Nachkommastellen verwendet
 * falls ganze Zahlen zugewiesen werden, sollte ein 'D' bzw. 'd' als suffix oder ein Punkt verwendet werden
-    *führt bei Berechnungen ansonsten zu fehlerhaften Ergebnis   
+    * führt bei Berechnungen ansonsten zu fehlerhaften Ergebnis   
 
 ```java
 double height = 1.78;
@@ -88,7 +89,7 @@ age = 8.0;
 age = 8.;
 ```
 
-#### Aufgabe 4
+**Aufgabe 4:**
 Was ist das Ergebnis von folgendem Code?
 ```java
 int intResult = 3/2;
@@ -100,7 +101,7 @@ System.out.println("Double result: " + doubleResult);
 
 ## Referenztypen/Objekte
 * haben keinen festen Wertebereich
-* es wird die Referenz in einer Varibelen gespeichert
+* es wird die Referenz in einer Variablen gespeichert
 * Name des Typs fängt mit einem großen Buchtstaben an
 
 ```java
@@ -114,7 +115,7 @@ changedPoint.y = 1;
 System.out.println(point.toString());
 ``` 
 
-### Aufgabe 5
+**Aufgabe 5:**
 Was ist das Ergebnis von dem Codesnippet?
  
 ### String
@@ -122,7 +123,7 @@ Was ist das Ergebnis von dem Codesnippet?
 * Wertzuweisung mit doppelten Hochkommata
 * kann wie ein primitiver Datentyp verwendet werden
 * zwei Zeichenketten können mit dem '+'-Zeichen konkateniert/zusammengeführt werden
-* bietet viele eigene Funktionen zum bearbeiten einer Zeichenkette
+* bietet viele eigene Funktionen zum Bearbeiten einer Zeichenkette
 
 ```java
 String welcome = "Willkommen bei DB Vertrieb";
@@ -130,10 +131,10 @@ String welcome = "Willkommen bei DB Vertrieb";
 String welcome = "Willkommen" + "bei DB Vertrieb";
 ``` 
 
-### Aufgabe 6
+**Aufgabe 6:**
 Programmiere das Beispiel aus Aufgabe 5 mit dem Datentyp String nach.
 
-### Aufgabe 7
+**Aufgabe 7:**
 Spiele mit den bereitgestellten Funktionen von String. Erstelle dafür eine String-Zeichenkette. 
 Auf die Funktionen einer Variablen kannst du zugreifen in dem du ihr einen '.' hinzufügst:
 ```java
@@ -174,9 +175,9 @@ primes[1] = 13;
 ...
 ```
 
-#### Aufgabe 8
+**Aufgabe 8:**
 * Programmiere das Lese-Beispiel nach und gebe den Wert mit System.out.println aus.
-* Gebe den Wert für die Positionen [-1], [0] und [10] aus
+* Gebe den Wert für den Index [-1], [0] und [10] aus.
 
 #### Sonstiges
 * Auf die Länge zugreifen:

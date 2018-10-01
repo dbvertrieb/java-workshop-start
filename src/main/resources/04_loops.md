@@ -13,7 +13,7 @@ while ( number < 11 ) {
 ```
 
 **Aufgabe 1:**
-Programmer einen Countdown und gebe jeden Wert angefangen bei 10 aus.
+Programmiere einen Countdown und gebe jeden Wert angefangen bei 10 aus.
 
 **Frage 1:**
 Was ist eine Endlosschleife?
@@ -52,7 +52,7 @@ for ( int i = 1; i <= 10; i++ ){
 ```
 
 **Frage 2:**
-Wie oft wird der Schleiferumpf ausgeführt?
+Wie oft wird der Schleifenrumpf ausgeführt?
 ```java
 for ( int i = 11; i <= 10; i++ ){
     System.out.println( i );

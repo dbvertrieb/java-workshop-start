@@ -1,7 +1,6 @@
 # Funktionen
 * wiederkehrender Code soll nicht erstellt werden, sondern zentral an einer Stelle definiert werden
 * komplexer Code kann nicht mehrere Funktionen ausgelagert werden, um Komplexität zu mindern
-* werden auch Methoden genannt
 * Gute Namen für Funktionen wählen
 * Namensmuster wie bei Variablen
 

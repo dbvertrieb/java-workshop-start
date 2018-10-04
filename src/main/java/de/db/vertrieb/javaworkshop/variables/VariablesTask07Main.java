@@ -7,6 +7,6 @@ public class VariablesTask07Main {
         System.out.println(welcome.toUpperCase());
         System.out.println(welcome.length());
         System.out.println(welcome.contains("Vertrieb"));
-        System.out.println(welcome.endsWith("b."));
+        System.out.println(welcome.endsWith("b"));
     }
 }

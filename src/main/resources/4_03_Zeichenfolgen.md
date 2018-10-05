@@ -15,6 +15,17 @@ nicht threadsicher |	|	StringBuilder
 
 **immutable:** Objekte, deren Zustand sich nicht verändern lässt 
 
+* Zeichen im String können nicht verändert werden. 
+* Methoden, die scheinbar Veränderungen an Strings vornehmen, erzeugen in Wahrheit neue String-Objekte
+* Beim Aneinanderhängen zweier String-Objekte entsteht als Ergebnis ein drittes String-Objekt für die zusammengefügte Zeichenreihe.
+
+
+* StringBuilder und StringBuffer repräsentieren dynamische, beliebig änderbare Zeichenreihen
+* Der Unterschied zwischen beiden ist, dass StringBuffer vor nebenläufigen Operationen geschützt ist, StringBuilder nicht
+
+```java
+StringBuffer buf = new StringBuffer("Willkommen ");
+```
 ## String
 
 Die Entwickler von Java haben eine Symbiose zwischen String als Klasse und dem String als eingebautem Datentyp vorgenommen. Die Sonderbehandlung gegenüber anderen Objekten ist an zwei Punkten abzulesen:
@@ -41,15 +52,59 @@ int    age    = 39;
 double height = 1.83; 
 String s = "Alter: " + age + ", Größe: " + height; 
 System.out.println( s );      // Alter: 39, Größe: 1.83
-
-
 ```
+
 ### String-Länge und Test auf Leer-String
+
+**Aufgabe:** Was passiert?
+````java
+"".length()
+"".isEmpty()
+" ".length()
+" ".isEmpty()
+````
+
+**Aufgabe:** Was passiert?
+````java
+String s = null;
+s.length();
+````
+
 ### Zugriff auf ein bestimmtes Zeichen mit charAt( )
+
+```java
+charAt( )
+```
+**Aufgabe:** Gib das **erste** und das **letzte** Zeichen einer Zeichenkette aus
+
+
 ### Nach enthaltenen Zeichen und Zeichenfolgen suchen
+
+```java
+contains(CharSequence) 
+```
+
+**Aufgabe:** Erstelle zwei Strings. Der zweite String soll ein Teilstring des ersten sein. Suche nach dem zweiten String im ersten String
+
+
 #### Fundstelle mit indexOf(…) zurückgeben
+
+```java
+indexOf(…)
+```
+**Aufgabe:** Suche die Stelle an der ein Bestimmtes Zeichen einer Zeichenkette vorkommt
+
 #### Vom Ende an suchen
+
+```java
+lastIndexOf(…)
+```
+
 #### Anzahl der Teil-Strings einer Zeichenkette 
+
+**Aufgabae** Erstelle ein Programm um zu ermitteln wie oft ein Teil-String vorkommt
+
+Beispiel: "sch" in "schlingelschlangel"
 
 ### Gut, dass wir verglichen haben 
 ### String-Teile extrahieren 

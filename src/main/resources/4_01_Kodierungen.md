@@ -43,6 +43,21 @@
 Der Buchstabe "A" ist dann U+0041
 
 ## UTF-8
+Kodierung für Unicodezeichen
+
+
+**Beispiele für UTF-8 Kodierungen**
+
+
+
+Zeichen | Unicode | Unicode binär | UTF-8 binär | UTF-8 hexadezimal
+---|---|---|---|---
+Buchstabe y | U+0079 | 00000000 01111001 | 01111001 | 79
+Buchstabe ä | U+00E4 | 00000000 11100100 | 11000011 10100100 | C3 A4
+Zeichen für eingetragene Marke ® | U+00AE | 00000000 10101110 | 11000010 10101110 | C2 AE
+Eurozeichen € | U+20AC | 00100000 10101100 | 11100010 10000010 10101100 | E2 82 AC
+Violinschlüssel 𝄞 | U+1D11E | 00000001 11010001 | 00011110	11110000 10011101 10000100 10011110 | F0 9D 84 9E
+
 
 ## Escape-Sequenzen / Fluchtsymbole
 

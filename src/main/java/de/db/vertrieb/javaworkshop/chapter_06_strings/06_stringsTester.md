@@ -82,10 +82,10 @@ String s = null;
 s.length();
 ```
 
-**Aufgabe 6:** Erstelle ein Programm um zu ermitteln wie oft ein Teil-String vorkommt  
+**Aufgabe 6:** Erstelle ein Programm um zu ermitteln ob ein Teil-String vorkommt  
 Beispiel: "sch" in "schlingelschlangel"
 
-**Aufgabe 7:** Erstelle ein Programm, welches das Alter und die Größe in Variablen speichert diese dann in einem Satz ausgibt  
+**Aufgabe 7:** Erstelle ein Programm, welches das Alter und die Größe in Variablen speichert und diese dann in einem Satz ausgibt  
 z.B. **Alter: 38, Groesse: 180 cm**
 
 **Aufgabe 8:** Wandle alle zeichen in Großbuchstaben um  
@@ -131,47 +131,9 @@ Platzhalter | Beschreibung
 **%d** | Dezimalzahl
 **%t** | Datum und Zeit 
 
-**Aufgabe 14:** 
+**Aufgabe 14:** Erstelle ein Programm, welches das Alter und die Größe in Variablen speichert und diese dann in einem Satz ausgibt. Benutze dazu die String.format Methode.  
+z.B. **Alter: 38, Groesse: 180 cm**
 
-
-
-
-
-
-
-
-
-
-
-### Zugriff auf ein bestimmtes Zeichen mit charAt( )
-
-```java
-charAt( )
-```
-**Aufgabe:** Gib das **erste** und das **letzte** Zeichen einer Zeichenkette aus
-
-
-### Nach enthaltenen Zeichen und Zeichenfolgen suchen
-
-```java
-contains(CharSequence) 
-```
-
-**Aufgabe:** Erstelle zwei Strings. Der zweite String soll ein Teilstring des ersten sein. Suche nach dem zweiten String im ersten String
-
-
-#### Fundstelle mit indexOf(…) zurückgeben
-
-```java
-indexOf(…)
-```
-**Aufgabe:** Suche die Stelle an der ein Bestimmtes Zeichen einer Zeichenkette vorkommt
-
-#### Vom Ende an suchen
-
-```java
-lastIndexOf(…)
-```
 
 
 

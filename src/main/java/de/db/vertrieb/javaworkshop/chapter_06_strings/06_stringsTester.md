@@ -5,7 +5,7 @@ Klasse "String"
 Wenn wir in Java Zeichenketten verwenden, d.h. ein oder mehrere Worte speichern und wieder lesen, dann nutzen wir dazu 
 eine Variable vom Typ String. Genauer gesagt ein Objekt der Klasse String.
 
-**Was ist richtig?**
+**Aufgabe 1:** Was ist richtig?
 ```java
 String s = new String("Wort");
 String s = "AnderesWort";
@@ -13,7 +13,7 @@ String s = "AnderesWort";
 
 Wenn wir einen String angelgt haben, können wir ihn nicht mehr ändern -> immutable.
 
-**Funktioniert das?**
+**Aufgabe 2:** Funktioniert das?
 ```java
 String a = "abc";
 a = a + "xy";
@@ -23,8 +23,7 @@ a = "def";
 
 Java bietet auch die Möglichkeit mit veränderbaren Zeichenketten zu arbeiten:
 
-StringBuilder
-StringBuffer
+**StringBuilder** und **StringBuffer**
 
 
 
@@ -46,7 +45,6 @@ String s;
 s.length()
 
 s.isEmpty()
-s.isNullOrEmpty()
 
 s.contains()
 
@@ -67,6 +65,25 @@ s.substringBefore()
 s.substringAfter()
 ```
 
+**Aufgabe 4:** Was passiert?
+```java
+String a = "";
+String b = " ";
+
+a.length()
+a.isEmpty()
+b.length()
+b.isEmpty()
+```
+
+**Aufgabe 5:** Was passiert?
+```java
+String s = null;
+s.length();
+```
+
+**Aufgabe 6** Erstelle ein Programm um zu ermitteln wie oft ein Teil-String vorkommt  
+Beispiel: "sch" in "schlingelschlangel"
 
 ##Zeichen von der Komandozeile entgegennehmen
 
@@ -95,30 +112,7 @@ Platzhalter | Beschreibung
 
 
 
-```java
-"Hi Chris".length();
-```
 
-
-
-
-```
-
-### String-Länge und Test auf Leer-String
-
-**Aufgabe:** Was passiert?
-````java
-"".length()
-"".isEmpty()
-" ".length()
-" ".isEmpty()
-````
-
-**Aufgabe:** Was passiert?
-````java
-String s = null;
-s.length();
-````
 
 ### Zugriff auf ein bestimmtes Zeichen mit charAt( )
 
@@ -152,7 +146,7 @@ lastIndexOf(…)
 
 #### Anzahl der Teil-Strings einer Zeichenkette 
 
-**Aufgabae** Erstelle ein Programm um zu ermitteln wie oft ein Teil-String vorkommt
+**Aufgabe 6** Erstelle ein Programm um zu ermitteln wie oft ein Teil-String vorkommt
 
 Beispiel: "sch" in "schlingelschlangel"
 

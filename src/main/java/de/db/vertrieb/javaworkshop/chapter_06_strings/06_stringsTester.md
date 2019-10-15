@@ -94,6 +94,15 @@ DasIstEinTestWort
 **Aufgabe 9:** Entferne die Leerzeichen aus der Zeichenkette:
 " irgendeinwort     "
 
+**Aufgabe 10:** Ersetze jedes p durch ein m  
+papa
+
+**Aufgabe 11:** Lege zwei Strings an und prüfe ob ihr Inhalt (Zeichenkette) identisch ist
+
+**Aufgabe 12:** Teile die Zeichenkette an den Leerstellen  
+"Wunderauto"
+
+
 
 ##Zeichen von der Komandozeile entgegennehmen
 
@@ -103,6 +112,8 @@ Klasse Scanner
     Scanner scanner = new Scanner(System.in);
     String s = scanner.next();
 ```
+
+**Aufgabe 13:**
 
 ##Zeichenketten formatiert augeben
 
@@ -120,6 +131,7 @@ Platzhalter | Beschreibung
 **%d** | Dezimalzahl
 **%t** | Datum und Zeit 
 
+**Aufgabe 14:** 
 
 
 

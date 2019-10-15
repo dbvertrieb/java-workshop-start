@@ -8,6 +8,7 @@
     <artifactId>java-workshop</artifactId>
     <version>0.1-SNAPSHOT</version>
 
+    <!-- Remove the complete build-tag for Java8 -->
     <build>
         <plugins>
             <plugin>

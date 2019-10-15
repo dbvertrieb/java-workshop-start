@@ -1,6 +1,6 @@
 package de.db.vertrieb.javaworkshop.chapter_06_strings;
 
-public class String07Main {
+public class String17Main {
 
     public static void main(String[] args) {
         int    age    = 39;

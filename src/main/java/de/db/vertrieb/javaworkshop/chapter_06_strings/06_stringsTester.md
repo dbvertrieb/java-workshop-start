@@ -46,7 +46,6 @@ String s;
 s.length()
 
 s.isEmpty()
-s.isNullOrEmpty()
 
 s.contains()
 
@@ -67,6 +66,19 @@ s.substringBefore()
 s.substringAfter()
 ```
 
+**Aufgabe 4:** Was passiert?
+````java
+String a = "";
+String b = " ";
+
+a.length()
+a.isEmpty()
+b.length()
+b.isEmpty()
+
+String s = null;
+s.length();
+````
 
 ##Zeichen von der Komandozeile entgegennehmen
 
@@ -95,30 +107,7 @@ Platzhalter | Beschreibung
 
 
 
-```java
-"Hi Chris".length();
-```
 
-
-
-
-```
-
-### String-Länge und Test auf Leer-String
-
-**Aufgabe:** Was passiert?
-````java
-"".length()
-"".isEmpty()
-" ".length()
-" ".isEmpty()
-````
-
-**Aufgabe:** Was passiert?
-````java
-String s = null;
-s.length();
-````
 
 ### Zugriff auf ein bestimmtes Zeichen mit charAt( )
 

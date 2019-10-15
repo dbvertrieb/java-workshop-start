@@ -82,8 +82,18 @@ String s = null;
 s.length();
 ```
 
-**Aufgabe 6** Erstelle ein Programm um zu ermitteln wie oft ein Teil-String vorkommt  
+**Aufgabe 6:** Erstelle ein Programm um zu ermitteln wie oft ein Teil-String vorkommt  
 Beispiel: "sch" in "schlingelschlangel"
+
+**Aufgabe 7:** Erstelle ein Programm, welches das Alter und die Größe in Variablen speichert diese dann in einem Satz ausgibt  
+z.B. **Alter: 38, Groesse: 180 cm**
+
+**Aufgabe 8:** Wandle alle zeichen in Großbuchstaben um  
+DasIstEinTestWort
+
+**Aufgabe 9:** Entferne die Leerzeichen aus der Zeichenkette:
+" irgendeinwort     "
+
 
 ##Zeichen von der Komandozeile entgegennehmen
 
@@ -109,6 +119,13 @@ Platzhalter | Beschreibung
 **%b** | Boolean
 **%d** | Dezimalzahl
 **%t** | Datum und Zeit 
+
+
+
+
+
+
+
 
 
 
@@ -144,10 +161,6 @@ indexOf(…)
 lastIndexOf(…)
 ```
 
-#### Anzahl der Teil-Strings einer Zeichenkette 
 
-**Aufgabe 6** Erstelle ein Programm um zu ermitteln wie oft ein Teil-String vorkommt
-
-Beispiel: "sch" in "schlingelschlangel"
 
 

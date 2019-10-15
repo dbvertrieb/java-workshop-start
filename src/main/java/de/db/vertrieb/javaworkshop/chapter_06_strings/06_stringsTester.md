@@ -101,13 +101,7 @@ Platzhalter | Beschreibung
 
 
 
-### Konkatination mit +
 
-```java
-int    age    = 39; 
-double height = 1.83; 
-String s = "Alter: " + age + ", Größe: " + height; 
-System.out.println( s );      // Alter: 39, Größe: 1.83
 ```
 
 ### String-Länge und Test auf Leer-String

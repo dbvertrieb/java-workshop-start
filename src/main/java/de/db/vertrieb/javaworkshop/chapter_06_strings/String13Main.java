@@ -1,13 +1,14 @@
 package de.db.vertrieb.javaworkshop.chapter_06_strings;
 
+import java.util.Scanner;
+
 public class String13Main {
 
     public static void main(String[] args) {
 
-        String s = "  String08Main   ";
-
-        String t = s.trim();
-        System.out.println(t);
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.next();
+        System.out.println(s);
     }
 
 }

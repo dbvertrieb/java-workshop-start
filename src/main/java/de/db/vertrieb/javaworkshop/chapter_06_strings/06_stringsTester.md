@@ -113,7 +113,7 @@ Klasse Scanner
     String s = scanner.next();
 ```
 
-**Aufgabe 13:**
+**Aufgabe 13:** Erstelle ein Programm um eingaben von der Komandozeile entgegenzunehmen
 
 ##Zeichenketten formatiert augeben
 
